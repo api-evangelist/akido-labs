@@ -1,8 +1,29 @@
 aid: akido-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akido-labs.png
 name: Akido Labs
-description: Akido Labs is a company surfaced as a portfolio company of dcvc, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Akido Labs is a Los Angeles-based healthcare technology company re-engineering
+  care delivery with artificial intelligence. Its flagship system, Scope AI, is a
+  clinical decision support platform trained on large volumes of healthcare data
+  using reinforcement learning with human feedback (RLHF) to help physicians reach
+  efficient diagnoses, order the right diagnostics, personalize treatment, and
+  forecast health risks. Providers use Scope AI through the Akido Chart EMR to
+  expand capacity for primary care and specialty visits. Akido also operates Akido
+  Medical, a care network spanning dozens of locations and hundreds of providers
+  serving hundreds of thousands of patients, with an emphasis on underserved and
+  street-medicine populations. The company is venture-backed (including a Series B
+  led by Oak HC/FT) and does not currently publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/akido-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +37,42 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Clinical Decision Support
+- Primary Care
+- Health Technology
+- Machine Learning
+- Medical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/akido-labs-domain-security.yml
+- type: Website
+  url: https://www.akidolabs.com/
+- type: Company
+  url: https://www.akidolabs.com/company
+- type: Product
+  name: Scope AI
+  url: https://www.akidolabs.com/scope-ai
+- type: Blog
+  name: News
+  url: https://www.akidolabs.com/news
+- type: Careers
+  url: https://www.akidolabs.com/careers
+- type: PrivacyPolicy
+  url: https://www.akidolabs.com/privacy-policy
+- type: TermsOfService
+  url: https://www.akidolabs.com/terms-of-use
+- type: GitHubOrganization
+  url: https://github.com/akidolabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
