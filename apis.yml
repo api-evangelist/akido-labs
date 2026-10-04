@@ -52,8 +52,8 @@ tags:
 - Artificial Intelligence
 - Clinical Decision Support
 - Primary Care
-- Health Technology
-- Machine-Learning
+- Health Tech
+- Machine Learning
 - Medical
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Health Technology
 - Machine Learning
 - Medical
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
